@@ -3,6 +3,10 @@
 
 :root {
     --primary: #fe2c55;
+
+    //Default layout
+    --default-layput-header-height: 60px;
+    --default-layput-width: 1150px;
 }
 
 * {
@@ -18,4 +22,5 @@ body {
     font-size: 1.6rem;
     line-height: 1.5;
     text-rendering: optimizeSpeed;
+    margin: 0px;
 }

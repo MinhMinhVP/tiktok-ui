@@ -19,6 +19,9 @@
     align-items: center;
     justify-content: space-between;
 }
+.logo-link {
+    display: flex;
+}
 
 .actions {
     display: flex;
@@ -39,7 +42,19 @@
     padding: 4px 12px;
     cursor: pointer;
 }
-
+.badge {
+    position: absolute;
+    top: -3px;
+    right: 0;
+    padding: 0px 6px;
+    height: 2rem;
+    border-radius: 10px;
+    font-style: 1.4rem;
+    font-weight: 600;
+    color: var(--white);
+    font-family: var(--font-family);
+    background-color: var(--primary);
+}
 .user-avatar {
     width: 32px;
     height: 32px;
